@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-python -m venv .venv
+python3 -m venv .venv
 
 chmod +x .venv/Scripts/activate
 bash .venv/Scripts/activate
