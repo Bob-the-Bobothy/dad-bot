@@ -2,7 +2,6 @@
 
 python3 -m venv .venv
 
-chmod +x .venv/Scripts/activate
 source .venv/Scripts/activate
 
 python3 -m pip install -r requirements.txt
