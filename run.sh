@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-python3 -m venv .venv
+sudo python3 -m venv .venv
 
 source .venv/Scripts/activate
 
