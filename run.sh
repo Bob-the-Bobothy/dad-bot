@@ -2,5 +2,8 @@
 
 python3 -m pip install -r requirements.txt
 
-python3 dad-bot/main.py &
-python3 dad-bot/main.py &
+cd dad-bot
+python3 main.py &
+
+cd ../vndb-quotes
+python3 main.py &
