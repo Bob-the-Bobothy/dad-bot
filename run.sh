@@ -1,6 +1,6 @@
-#!/usr/bin/env bash
-
-python3 -m pip install -r requirements.txt
+#!/bin/sh
 
 python3 dad-bot/main.py &
-python3 dad-bot/main.py &
+python3 vndb-quotes/main.py &
+
+wait
