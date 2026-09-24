@@ -2,3 +2,5 @@ services:
   app:
     build: .
     container_name: container
+    env_file:
+        - .env
