@@ -4,7 +4,7 @@ import datetime
 from colorama import Fore
 from commands import parse_dad_joke_trigger
 
-token: str = os.environ.get('BOT_TOKEN')
+token: str = os.environ.get('DAD_TOKEN')
 
 client = discord.Client(intents=discord.Intents.all())
 

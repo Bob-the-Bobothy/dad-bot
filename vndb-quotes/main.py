@@ -7,7 +7,7 @@ import random
 import asyncio
 import os
 
-token: str = os.environ.get("VNDB_BOT_TOKEN")
+token: str = os.environ.get("VNDB_TOKEN")
 
 class Client(discord.Client):
     def __init__(self):
