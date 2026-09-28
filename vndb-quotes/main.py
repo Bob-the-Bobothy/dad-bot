@@ -24,7 +24,7 @@ _quotes_lock = asyncio.Lock()
 
 def build_quotes():
     quotes = []
-    INPUT = Path("quotes")
+    INPUT = Path("vndb-quotes/quotes")
 
     with INPUT.open("r", encoding="utf-8", errors="replace") as f:
         for line in f:
